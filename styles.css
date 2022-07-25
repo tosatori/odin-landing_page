@@ -68,3 +68,38 @@ button {
 .main-title button {
     border: none;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 120px;
+    align-items: center;
+    color: #1f2937;
+
+}
+.information h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.information ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.information li {
+    display: flex;
+    flex-direction: column;
+}
+.information img {
+    border: 3px solid #3882f6;
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+}
+
+.information p {
+    width: 160px;
+    text-align: center;
+}
