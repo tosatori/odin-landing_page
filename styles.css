@@ -82,7 +82,7 @@ button {
 .information {
     display: flex;
     flex-direction: column;
-    padding: 0px 120px;
+    padding: 0px 120px 120px;
     align-items: center;
     color: #1f2937;
 
@@ -95,7 +95,7 @@ button {
 .information ul {
     list-style: none;
     display: flex;
-    gap: 32px;
+    gap: 62px;
 }
 
 .information li {
@@ -104,13 +104,13 @@ button {
 }
 .information img {
     border: 3px solid #3882f6;
-    height: 150px;
-    width: 150px;
-    border-radius: 10%;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
 }
 
 .information p {
-    width: 160px;
+    width: 200px;
     text-align: center;
 }
 
