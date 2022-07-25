@@ -103,3 +103,20 @@ button {
     width: 160px;
     text-align: center;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 120px 300px;
+    color: #1f2937;
+}
+.quote #citation {
+    font-size: 36px;
+    font-weight: 100;
+}
+.quote #author {
+    font-weight: 700;
+    text-align: right;
+    font-size: 24px;
+}
