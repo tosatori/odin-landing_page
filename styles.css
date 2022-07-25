@@ -35,13 +35,14 @@ a {
     display: flex;
     background-color: #1f2937;
     padding: 80px 120px 100px;
-    align-items: center;
     gap: 64px;
+    align-items: stretch;
 }
 
 .main-title .left {
     display: flex;
     flex-direction: column;
+    flex: 1 1 0px;
 }
 
 .main-title h1 {
@@ -55,10 +56,13 @@ a {
     color: #e5e7eb;
    }
 
-.picture {
+.main-title img {
     color: #e5e7eb;
     background-color: #9298a4;
-    
+    flex: 1 1 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 button {
