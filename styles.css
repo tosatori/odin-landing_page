@@ -12,7 +12,6 @@ body {
     color: #f9faf8;
     padding:0px 120px;
 
-
 }
 
 .logo {
@@ -25,4 +24,47 @@ body {
     list-style: none;
     gap: 16px;
 
+}
+
+.main-title {
+    display: flex;
+    background-color: #1f2937;
+    padding: 80px 120px 100px;
+    align-items: center;
+    gap: 64px;
+}
+
+.main-title .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title h1 {
+   font-size: 48px;
+   color: #f9faf8;
+   
+}
+
+.main-title p {
+    font-size: 18px;
+    color: #e5e7eb;
+   }
+
+.picture {
+    color: #e5e7eb;
+    background-color: #9298a4;
+    
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border-radius: 6px;
+    width: 96px;
+    padding: 8px;
+}
+
+.main-title button {
+    border: none;
 }
